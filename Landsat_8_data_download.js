@@ -22,7 +22,7 @@ var imageList = landsat_8.toList(landsat_8.size());
 
 // Function to export metadata
 var exportMetadata = function(image, id) {
-  // Define metadata properties that you are interested in
+  // Define metadata properties 
   var properties = ["RADIANCE_MULT_BAND_10", "RADIANCE_ADD_BAND_10", "K1_CONSTANT_BAND_10", "K2_CONSTANT_BAND_10"];
   var textContent = "";
   
